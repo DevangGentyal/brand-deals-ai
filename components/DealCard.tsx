@@ -38,8 +38,8 @@ export const DealCard: React.FC<DealCardProps> = ({ deal, onToggle }) => {
         <p className="deal-description">{deal.description}</p>
         <div className="deal-left">
             <div className="deal-brand">
-              <Building2 className="w-4 h-4 brand-icon" style={{color:"#ffe0b8";}} />
-              <span style={{color:"#ffe0b8";}}>{deal.brand}</span>
+              <Building2 className="w-4 h-4 brand-icon" style={{color:"#ffe0b8"}} />
+              <span style={{color:"#ffe0b8"}}>{deal.brand}</span>
             </div>
           </div>
         <div className="deal-footer">

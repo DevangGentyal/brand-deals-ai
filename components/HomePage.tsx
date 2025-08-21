@@ -10,6 +10,7 @@ import { OrbitControls, Text3D, Center } from "@react-three/drei"
 import { useRef } from "react"
 import { useFrame } from "@react-three/fiber"
 import type * as THREE from "three"
+import Hero from "./Hero";
 
 function AnimatedTorus() {
   const meshRef = useRef<THREE.Mesh>(null!)
@@ -86,7 +87,7 @@ export const HomePage: React.FC<HomePageProps> = ({ state, deals, onScanDeals, o
           </div>
 
           <div className="hero-visual">
-            
+             <Hero />
 
             {/*
             <div className="floating-card card-1 enhanced">
